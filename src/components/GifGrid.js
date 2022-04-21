@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { GifGridItem } from './GifGridItem';
+import styles from './gifgrid.module.css'
+
 
 export const GifGrid = ({category}) => {
 
@@ -32,7 +34,7 @@ export const GifGrid = ({category}) => {
     // getGifs();
 
   return (
-    <div>
+    <div className={styles.gridContainer}>
         <h3> {category} </h3>
         <ol>
             {
