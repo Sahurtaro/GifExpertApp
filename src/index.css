@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 16px;
+  
 }
 
 input{
@@ -12,6 +12,18 @@ input{
   color: grey;
   border: 1px;
   border-color: #035397;
+}
+
+ol{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    
+}
+
+.main-title{
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 

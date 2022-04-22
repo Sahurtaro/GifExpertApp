@@ -4,10 +4,21 @@
 }
 
 .gridContainer{
-    
-    background-color: #035397;
-    width: 480px;
-    padding: 2px;
-    margin-bottom: 6%;
+    align-content: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;    
+}
+
+.gridContainer p {
+    padding: 5px;
+    text-align: center;
+}
+
+.gridContainer img{
+    max-height: 170px;
 }

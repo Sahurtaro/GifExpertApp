@@ -34,7 +34,7 @@ export const GifGrid = ({category}) => {
     // getGifs();
 
   return (
-    <div className={styles.gridContainer}>
+    <div className={styles.cardGrid}>
         <h3> {category} </h3>
         <ol>
             {
